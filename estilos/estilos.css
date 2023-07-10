@@ -28,6 +28,10 @@ main{
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
+a{
+    text-decoration: none;
+    color: rgb(6, 158, 95);
+}
 .personagem{
     margin: auto;
     text-align: center;
@@ -42,7 +46,7 @@ main{
     padding: 20px 10px;
 }
 .personagem#imagem{
-    background-image: url(imagens/Mercurio.jpg);
+    background-image: url(../imagens/Mercurio.jpg);
     height: 400px;
     background-attachment: fixed;
     background-position: top;
@@ -92,7 +96,7 @@ main{
     padding: 10px 10px;
 }
 .diferenca-1#imagem2{
-    background-image: url(imagens/Quicksilver-ultron.jpg);
+    background-image: url(../imagens/Quicksilver-ultron.jpg);
     height: 400px;
     background-attachment: fixed;
     background-position: top center;
@@ -117,7 +121,7 @@ main{
     padding: 10px 10px;
 }
 .diferenca-2#imagem3{
-    background-image: url(imagens/578013d0-3d2d-48a7-89d0-fcba556c2975.jpg);
+    background-image: url(../imagens/578013d0-3d2d-48a7-89d0-fcba556c2975.jpg);
     height: 80vh;
     background-attachment: fixed;
     background-position: top center;
@@ -125,7 +129,7 @@ main{
     background-size: cover;
 }
 .diferenca-2#imagem4{
-    background-image: url(imagens/download-1.jpg);
+    background-image: url(../imagens/download-1.jpg);
     height: 500px;
     background-attachment: fixed;
     background-position: top;
@@ -150,7 +154,7 @@ main{
     padding: 10px 10px;
 }
 .diferenca-3#imagem5{
-    background-image: url(imagens/pietro.webp);
+    background-image: url(../imagens/pietro.webp);
     height: 500px;
     background-attachment: fixed;
     background-position: top;
@@ -162,7 +166,7 @@ main{
     background-size: cover;
 }
 .diferenca-3#imagem6{
-    background-image: url(imagens/download4.jpg);
+    background-image: url(../imagens/download4.jpg);
     height: 400px;
     background-attachment: fixed;
     background-position: top;
@@ -186,7 +190,7 @@ main{
     padding: 5px 10px;
 }
 .diferenca-4#imagem7{
-    background-image: url(imagens/download10.jpg);
+    background-image: url(../imagens/download10.jpg);
     height: 500px;
     background-attachment: fixed;
     background-position: top;
