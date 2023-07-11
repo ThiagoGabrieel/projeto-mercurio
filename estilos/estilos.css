@@ -24,6 +24,22 @@ header{
 .logo img{
     height: 150px;
 }
+.menu{
+    background-color: black;
+    padding: 13px;
+}
+.menu a{
+    background-color: rgb(0, 158, 97);
+    color: white;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
 main{
     margin: auto;
     background-color: rgb(255, 255, 255);
@@ -48,8 +64,7 @@ a{
 .personagem#imagem{
     background-image: url(../imagens/Mercurio.jpg);
     height: 400px;
-    background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,7 +138,6 @@ a{
 .diferenca-2#imagem3{
     background-image: url(../imagens/578013d0-3d2d-48a7-89d0-fcba556c2975.jpg);
     height: 80vh;
-    background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,11 +170,7 @@ a{
 .diferenca-3#imagem5{
     background-image: url(../imagens/pietro.webp);
     height: 90vh;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;    height: 500px;
-    background-attachment: fixed;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +178,6 @@ a{
 .diferenca-3#imagem6{
     background-image: url(../imagens/download4.jpg);
     height: 400px;
-    background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,8 +200,7 @@ a{
 }
 .diferenca-4#imagem7{
     background-image: url(../imagens/download10.jpg);
-    height: 90vh;
-    background-attachment: fixed;
+    height: 70vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
