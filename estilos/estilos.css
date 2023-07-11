@@ -29,7 +29,6 @@ header{
     padding: 6px;
     display: flex;
     justify-content: space-between;
-
 }
 .menu a{
     background-color: rgb(0, 158, 97);
