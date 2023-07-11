@@ -17,6 +17,8 @@
     <nav class="menu">
         <a href="#">Feiticeira Escarlate</a>
         <a href="#">Magneto</a>
+        <div class="btn">
+        </div>
     </nav>
     </div>
     <main>
@@ -90,5 +92,15 @@
         <footer>
             <p>T</p>
         </footer>
+        <script>
+            const btn = document.querySelector('.btn');
+            const main = document.querySelector('main');
+
+            btn.onclick = function()
+            {
+                this.classList.toggle('active')
+                main.classList.toggle('active')
+            }
+        </script>
 </body>
 </html>
